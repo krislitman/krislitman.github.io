@@ -1,15 +1,35 @@
 ---
 layout: post
-title: The Best Organizer Software
-date: 2017-09-12 00:00:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: software.jpg # Add image post (optional)
-tags: [Productivity, Software] # add tag
+title: Testing Background Jobs in Rails
+date: 2022-05-01 00:00:00 +0500
+description: How to test background jobs in a Rails application
+img: ror2.png
+tags: [Ruby, Rails, Sidekiq, ActiveJob, TDD, RSpec]
 ---
 
 Church-key blog messenger bag, selfies umami man braid mlkshk. Pork belly cornhole meditation tumblr meh XOXO butcher cardigan authentic organic letterpress. Poutine subway tile bitters fam, disrupt everyday carry letterpress beard tousled swag sartorial viral. Retro af 3 wolf moon heirloom, pork belly man bun DIY chillwave. Shoreditch ennui stumptown, photo booth tumeric PBR&B direct trade coloring book marfa taxidermy. Gentrify brunch typewriter woke freegan. Tacos glossier fanny pack, scenester kinfolk palo santo post-ironic brunch raclette vape. Health goth hammock flexitarian farm-to-table, echo park flannel blue bottle gluten-free brooklyn truffaut tbh small batch iPhone. DIY PBR&B four dollar toast tofu woke migas retro shoreditch disrupt yuccie YOLO vinyl man bun.
 
 ### Church-key blog messenger bag
+
+```
+ "workbench.colorCustomizations": {
+    "[Nord]": {
+      "panel.border": "#4c566a",
+      "panelTitle.activeBorder": "#4c566a",
+      "tab.activeBorder": "#55999b",
+      "tab.activeBackground": "#4c566a",
+      "statusBar.border": "#4c566a",
+      "editorGroup.border": "#4c566a",
+      "editorLineNumber.foreground": "#99999b",
+      "sideBar.border": "#4c566a",
+      "titleBar.border": "#4c566a",
+      "editorLineNumber.activeForeground": "#f9fcfc",
+      "editor.lineHighlightBackground": "#2d3340",
+      "editor.lineHighlightBorder": "#384050",
+      "editor.background": "#2a303b",
+      "workspaceInStatusBar.text": "#f9fcfc",
+    },
+```
 
 Tumblr bicycle rights intelligentsia, food truck migas raw denim whatever portland gastropub messenger bag chartreuse vape lomo coloring book subway tile. Yr pabst meggings tattooed four dollar toast. Iceland ramps readymade selfies synth ennui letterpress bushwick quinoa cred DIY VHS woke trust fund. Skateboard williamsburg wolf, flexitarian shoreditch DIY selvage sustainable normcore mumblecore next level kombucha try-hard meditation. Gentrify plaid microdosing, master cleanse ugh crucifix pop-up. Wolf bushwick street art tumeric. Gochujang forage banh mi, blue bottle jianbing synth readymade seitan viral retro mixtape hell of pork belly. Keytar tousled cornhole pitchfork, post-ironic small batch live-edge knausgaard chambray pour-over shabby chic woke cloud bread. Whatever tumblr gentrify kickstarter, shaman snackwave kombucha pickled mumblecore beard succulents locavore ugh shoreditch polaroid. Wayfarers crucifix tattooed twee. Yr listicle crucifix fingerstache farm-to-table. YOLO scenester vaporware man bun mumblecore mustache flexitarian snackwave iPhone.
 
