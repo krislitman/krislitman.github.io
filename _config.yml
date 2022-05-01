@@ -1,4 +1,4 @@
-title: Hello! I'm Kris Litman
+title:
 description: > # this means to ignore newlines until "baseurl:"
   Kris Litman Blog
 permalink: ''
@@ -7,17 +7,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: Kris Litman # add your name
-author-img: kris-litman.jpg # add your photo
-about-author: Software Engineer # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: krislitman # add your Github handle
+author: Kris Litman
+author-img: kris-litman.jpeg
+about-author: Software Engineer
+social-github: krislitman
 social-linkedin: kris-litman# add your Linkedin handle
 social-email: kris.d.litman@gmail.com# add your Email address
-
-# Disqus
-discus-identifier: mr-brown # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
