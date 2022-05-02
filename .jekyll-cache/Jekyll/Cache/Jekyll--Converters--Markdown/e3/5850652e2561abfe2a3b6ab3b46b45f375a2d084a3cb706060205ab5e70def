@@ -1,0 +1,8 @@
+I"p<p>In my last post I set up a background job implementation in a Rails application, you can read that here: <a href="https://krislitman.github.io/background-jobs-rails/">Post</a>. For testing</p>
+
+<p><strong>In Progress</strong></p>
+
+<h3 id="references">References:</h3>
+
+<p><a href="https://guides.rubyonrails.org/testing.html#testing-jobs">ActiveJob Testing</a></p>
+:ET
