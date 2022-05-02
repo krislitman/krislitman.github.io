@@ -768,6 +768,10 @@ template {
           box-sizing: border-box;
 }
 
+a {
+    color: #A3BE8C
+}
+
 html {
   line-height: 1.5;
 }
@@ -1164,7 +1168,7 @@ footer .copyright {
 .post .post-content .post-title a {
   font-family: 'PT Serif', serif;
   text-decoration: none;
-  color: #263959;
+  color: #81A1C1;
 }
 
 .post .post-content p {
