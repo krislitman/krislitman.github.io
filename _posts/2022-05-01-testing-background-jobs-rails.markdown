@@ -91,7 +91,33 @@ RSpec.describe UserLogCreateJob do
     end
 end
 ```
-**In Progress**
+
+To really see how this is working, we could add in a few more assertions. If we add in **assert_no_enqueued_jobs** before the current assertion in the test, it will still pass. There should only be an enqueued job once the User has been created, within the block of the second assertion. We could assert that once the User has been created that we should expect there to be a job in the queue, and after performing those jobs that we should be left with no enqueued jobs.
+
+```
+require "rails_helper"
+
+RSpec.describe UserLogCreateJob do
+    include ActiveJob::TestHelper
+    after(:each) do
+        User.destroy_all
+        UserLog.destroy_all
+    end
+
+    context "UserLogCreateJob" do
+        it "Is enqueued successfully" do
+            assert_no_enqueued_jobs
+            assert_enqueued_with(job: UserLogCreateJob) do
+                User.create
+            end
+            assert_enqueued_jobs 1
+
+            perform_enqueued_jobs
+            assert_no_enqueued_jobs
+        end
+    end
+end
+```
 
 ### References:
 
